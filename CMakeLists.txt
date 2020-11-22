@@ -25,5 +25,5 @@ file(GLOB SOURCES
 # Libraries path
 LINK_DIRECTORIES(lib/)
 
-add_executable(pong ${SOURCES})
-target_link_libraries(pong sfml-audio sfml-graphics sfml-system sfml-window)
+add_executable(snake ${SOURCES})
+target_link_libraries(snake sfml-audio sfml-graphics sfml-system sfml-window)
