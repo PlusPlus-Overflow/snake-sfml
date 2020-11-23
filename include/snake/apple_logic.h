@@ -1,14 +1,14 @@
-#ifndef __APPLE_LOGIC_HPP__
-#define __APPLE_LOGIC_HPP__
+#ifndef __APPLE_LOGIC_H__
+#define __APPLE_LOGIC_H__
 
-#include"ObjectLogic.h"
+#include"object_logic.h"
 
 namespace snk {
 
-  class AppleLogic : public ObjectLogic {
-    using ObjectLogic::ObjectLogic;
-  };
+class AppleLogic : public ObjectLogic {
+  using ObjectLogic::ObjectLogic;
+};
 
-}
+} // namespace snk
 
 #endif
