@@ -1,8 +1,8 @@
 #ifndef BOARD_CONTROLLER_H_
 #define BOARD_CONTROLLER_H_
 
-#include "board-graphic.h"
-#include "board-logic.h"
+#include "board_graphic.h"
+#include "board_logic.h"
 
 namespace snk {
 
