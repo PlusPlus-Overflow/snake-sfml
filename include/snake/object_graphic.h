@@ -3,7 +3,10 @@
 
 class ObjectGraphic : public sf::Drawable{
   public:
+    ObjectGraphic();
+    ObjectGraphic(const ObjectGraphic&);
     ObjectGraphic(const sf::Texture&, const sf::Vector2f&);
+    void operator = (const ObjectGraphic&);
   private:
     sf::Sprite sprite_;
   protected:

@@ -4,7 +4,7 @@ snk::BoardLogic::BoardLogic(int row, int column, const sf::VideoMode& videomode)
   row_ = row;
   column_ = column;
   chunk_size_ = CalcularTamano(videomode);
-  board_.resize(row_*column_);
+  board_.resize(row_ * column_);
 }
 
 sf::Vector2f snk::BoardLogic::CalcularTamano(const sf::VideoMode& videomode){
