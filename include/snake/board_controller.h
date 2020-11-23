@@ -13,7 +13,7 @@ class BoardController {
 
  private:
   BoardLogic board_logic_;
-  BoardGraphic board_graphic;
+  BoardGraphic board_graphic_;
 };
 
 }  // namespace snk
