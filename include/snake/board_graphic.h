@@ -4,6 +4,9 @@
 namespace snk{
 class BoardGraphic{
   public:
+    BoardGraphic();
+    BoardGraphic(const BoardGraphic&);
+    void operator = (const BoardGraphic&);
   private:
 };
 }

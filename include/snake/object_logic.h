@@ -3,7 +3,7 @@
 
 namespace snk {
 
-#include <Transformable.hpp>
+#include "../SFML/Graphics/Transformable.hpp"
 
 class ObjectLogic {
   public:

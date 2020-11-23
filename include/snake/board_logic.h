@@ -7,14 +7,17 @@
 namespace snk{
 class BoardLogic{
   public:
-    std::vector<ObjectController>& operator[];
+    BoardLogic();
+    BoardLogic(const BoardLogic&);
+    BoardLogic(int, int , const sf::VideoMode&);
+    std::vector<ObjectController>& operator[](int);
+    void operator = (const BoardLogic&);
   private:
     std::vector<ObjectController> board_;
     int row_;
     int column_;
     sf::Vector2f chunk_size_;
 
-    BoardLogic(int, int , const sf::VideoMode&);
     sf::Vector2f CalcularTamano(const sf::VideoMode&);
 };
 }
