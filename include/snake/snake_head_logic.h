@@ -4,7 +4,7 @@
 #include <map>
 
 #include "object_logic.h"
-#include "object_body_logic.h"
+#include "snake_body_logic.h"
 
 namespace snk {
 
