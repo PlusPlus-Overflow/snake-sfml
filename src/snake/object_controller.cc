@@ -9,4 +9,4 @@ ObjectController::ObjectController(ObjectLogic*& object_logic, const ObjectGraph
 
 ObjectController::~ObjectController() {}
 
-}
+}  // namespace snk
