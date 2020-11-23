@@ -3,6 +3,7 @@
 
 class ObjectGraphic : public sf::Drawable{
   public:
+    ObjectGraphic();
     ObjectGraphic(const sf::Texture&, const sf::Vector2f&);
   private:
     sf::Sprite sprite_;
