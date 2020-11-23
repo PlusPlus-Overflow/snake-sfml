@@ -1,3 +1,6 @@
+#ifndef _ObjectGraphic_
+#define _ObjectGraphic_
+
 #include "../../include/SFML/Graphics/Sprite.hpp"
 #include "../../include/SFML/Graphics/Drawable.hpp"
 
@@ -12,3 +15,5 @@ class ObjectGraphic : public sf::Drawable{
   protected:
     void draw(sf::RenderTarget&, sf::RenderStates) const override;
 };
+
+#endif

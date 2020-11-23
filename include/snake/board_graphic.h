@@ -1,6 +1,11 @@
+#ifndef _BoardGraphic_
+#define _BoardGraphic_
+
 namespace snk{
-class board_graphic{
+class BoardGraphic{
   public:
   private:
 };
 }
+
+#endif
