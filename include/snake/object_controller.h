@@ -8,6 +8,7 @@ namespace snk {
 
 class ObjectController {
  public:
+  ObjectController();
   ObjectController(ObjectLogic*& object_logic, const ObjectGraphic& object_graphic);
   ~ObjectController();
 
