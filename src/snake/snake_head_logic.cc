@@ -10,19 +10,19 @@ void SnakeHeadLogic::Move(int move) {
   switch (move) {
     case UP:
       Flow();
-      this->transformer.move(MOVES_VECTOR[UP]);
+      transformer.move(MOVES_VECTOR[UP]);
       break;
     case DOWN:
       Flow();
-      this->transformer.move(MOVES_VECTOR[DOWN]);
+      transformer.move(MOVES_VECTOR[DOWN]);
       break;
     case LEFT:
       Flow();
-      this->transformer.move(MOVES_VECTOR[LEFT]);
+      transformer.move(MOVES_VECTOR[LEFT]);
       break;
     case RIGHT:
       Flow();
-      this->transformer.move(MOVES_VECTOR[RIGHT]);
+      transformer.move(MOVES_VECTOR[RIGHT]);
       break;
     default:
       static_assert(false, "Unkown movement");
@@ -30,8 +30,15 @@ void SnakeHeadLogic::Move(int move) {
   }
 }
 
+void SnakeHeadLogic::Grow() {
+  if (next_ != NULL) 
+    next_->Grow();
+  else
+    next_ = new SnakeBodyLogic;
+}
+
 void SnakeHeadLogic::Flow() {
-  if (next_ != NULL) next_->Flow();
+  if (next_ != NULL) next_->Flow(transformer);
 }
 
 }  // namespace snk
