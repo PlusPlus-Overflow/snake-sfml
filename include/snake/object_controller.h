@@ -1,8 +1,8 @@
 #ifndef OBJECT_CONTROLLER_H_
 #define OBJECT_CONTROLLER_H_
 
-#include "object-graphic.h"
-#include "object-logic.h"
+#include "object_graphic.h"
+#include "object_logic.h"
 
 namespace snk {
 

@@ -1,7 +1,7 @@
 #ifndef SNAKE_HEAD_LOGIC_H_
 #define SNAKE_HEAD_LOGIC_H_
 
-#include "object-logic.h"
+#include "object_logic.h"
 
 namespace snk {
 
