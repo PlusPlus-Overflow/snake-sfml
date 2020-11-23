@@ -9,9 +9,9 @@ class ObjectLogic {
   public:
     sf::Transformable transformer;
   public:
-    ObjectLogic(const sf::Vector2f& coordinates);
-    ObjectLogic(unsigned x = 0, unsigned y = 0);
-    ObjectLogic(const ObjectLogic& other);
+    explicit ObjectLogic(const sf::Vector2f& coordinates);
+    explicit ObjectLogic(unsigned x = 0, unsigned y = 0);
+    explicit ObjectLogic(const ObjectLogic& other);
 };
 
 } // namespace snk
