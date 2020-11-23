@@ -3,7 +3,6 @@
 
 #include <map>
 
-#include "../SFML/"
 #include "object_logic.h"
 #include "object_body_logic.h"
 
