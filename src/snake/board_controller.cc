@@ -7,6 +7,8 @@ BoardController::BoardController(const BoardLogic& board_logic, const BoardGraph
   board_graphic_ = board_graphic;
 }
 
+BoardController::BoardController() {}
+
 BoardController::~BoardController() {}
 
 }  // namespace snk

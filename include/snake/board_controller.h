@@ -8,6 +8,7 @@ namespace snk {
 
 class BoardController {
  public:
+  BoardController();
   BoardController(const BoardLogic& board_logic, const BoardGraphic& board_graphic);
   ~BoardController();
 
