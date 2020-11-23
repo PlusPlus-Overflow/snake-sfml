@@ -35,3 +35,4 @@ build/
 *.app
 /.ccls-cache/
 /.tasks
+SFML/
