@@ -1,7 +1,7 @@
 #ifndef __SNAKE_BODY_LOGIC_H__
 #define __SNAKE_BODY_LOGIC_H__
 
-#include"object_logic.h"
+#include "object_logic.h"
 
 namespace snk {
 

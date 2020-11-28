@@ -1,7 +1,7 @@
 #ifndef _BoardLogic_
 #define _BoardLogic_
-#include "../SFML/System/Vector2.hpp"
-#include "../SFML/Graphics.hpp"
+#include <SFML/System/Vector2.hpp>
+#include <SFML/Graphics.hpp>
 #include "object_controller.h"
 
 namespace snk{

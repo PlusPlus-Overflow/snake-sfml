@@ -2,7 +2,7 @@
 #define _MOVEMENTS_
 
 #include <map>
-#include "../SFML/System/Vector2.hpp"
+#include <SFML/System/Vector2.hpp>
 
 namespace snk {
   enum MOVES { UP,

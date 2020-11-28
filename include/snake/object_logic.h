@@ -1,6 +1,7 @@
 #ifndef __OBJECT_LOGIC_H__
 #define __OBJECT_LOGIC_H__
-#include "../SFML/Graphics/Transformable.hpp"
+
+#include <SFML/Graphics/Transformable.hpp>
 
 namespace snk {
 class ObjectLogic {
