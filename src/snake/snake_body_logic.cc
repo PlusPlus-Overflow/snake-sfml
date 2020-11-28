@@ -3,13 +3,13 @@
 namespace snk {
 
 SnakeBodyLogic::SnakeBodyLogic(unsigned x, unsigned y, 
-                              SnakeBodyLogic* next = NULL) :
+                              SnakeBodyLogic* next) :
   ObjectLogic(x, y),
   next_(next)
   {}
 
 SnakeBodyLogic::SnakeBodyLogic(const sf::Vector2f& coordinates, 
-                              SnakeBodyLogic* next =  NULL) :
+                              SnakeBodyLogic* next) :
   ObjectLogic(coordinates),
   next_(next)
   {}

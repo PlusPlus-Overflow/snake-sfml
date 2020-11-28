@@ -14,7 +14,7 @@ enum MOVES { UP,
              LEFT 
 };
 
-const std::map<int, sf::Vector2f> MOVES_VECTOR {
+std::map<int, sf::Vector2f> MOVES_VECTOR {
   {UP,    sf::Vector2f(0, -1)},
   {DOWN,  sf::Vector2f(0, 1)},
   {RIGHT, sf::Vector2f(1, 0)},
@@ -34,7 +34,7 @@ class SnakeHeadLogic : public ObjectLogic {
 
  private:
   SnakeBodyLogic* next_;
-}
+};
 
 }  // namespace snk
 

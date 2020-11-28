@@ -25,7 +25,7 @@ void SnakeHeadLogic::Move(int move) {
       transformer.move(MOVES_VECTOR[RIGHT]);
       break;
     default:
-      static_assert(false, "Unkown movement");
+      throw "Tecla desconocida";
       break;
   }
 }
