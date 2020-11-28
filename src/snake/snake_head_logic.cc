@@ -1,4 +1,5 @@
 #include "../../include/snake/snake_head_logic.h"
+#include "../../include/snake/movements.h"
 
 namespace snk {
 
@@ -31,7 +32,7 @@ void SnakeHeadLogic::Move(int move) {
 }
 
 void SnakeHeadLogic::Grow() {
-  if (next_ != NULL) 
+  if (next_ != NULL)
     next_->Grow();
   else
     next_ = new SnakeBodyLogic;
