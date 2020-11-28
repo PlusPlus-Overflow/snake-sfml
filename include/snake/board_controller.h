@@ -12,6 +12,8 @@ class BoardController {
   BoardController(const BoardLogic& board_logic, const BoardGraphic& board_graphic);
   ~BoardController();
 
+  //TODO: mapeo de coordenadas
+
  private:
   BoardLogic board_logic_;
   BoardGraphic board_graphic_;
