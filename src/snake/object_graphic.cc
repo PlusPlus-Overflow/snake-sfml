@@ -1,11 +1,13 @@
 #include "../../include/snake/object_graphic.h"
 
-ObjectGraphic::ObjectGraphic(){
+namespace snk {
+
+ObjectGraphic::ObjectGraphic() {
   sprite_.setColor(sf::Color::Black);
-  sprite_.setPosition(0,0);
+  sprite_.setPosition(0, 0);
 }
 
-ObjectGraphic::ObjectGraphic(const ObjectGraphic& copy){
+ObjectGraphic::ObjectGraphic(const ObjectGraphic& copy) {
   *this = copy;
 }
 
@@ -14,10 +16,12 @@ ObjectGraphic::ObjectGraphic(const sf::Texture& texture, const sf::Vector2f& pos
   sprite_.setTexture(texture);
 }
 
-void ObjectGraphic::operator = (const ObjectGraphic& other){
+void ObjectGraphic::operator=(const ObjectGraphic& other) {
   sprite_ = other.sprite_;
 }
 
 void ObjectGraphic::draw(sf::RenderTarget& target, sf::RenderStates states) const {
   target.draw(sprite_);
 }
+
+}  // namespace snk

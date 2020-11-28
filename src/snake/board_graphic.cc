@@ -1,10 +1,20 @@
 #include "../../include/snake/board_graphic.h"
 
-snk::BoardGraphic::BoardGraphic() {
+namespace snk {
+
+BoardGraphic::BoardGraphic() {
 }
 
-snk::BoardGraphic::BoardGraphic(const BoardGraphic& other) {
+BoardGraphic::~BoardGraphic() {
 }
 
-void snk::BoardGraphic::operator=(const BoardGraphic& other) {
+BoardGraphic::BoardGraphic(const BoardGraphic& other) {
 }
+
+void BoardGraphic::operator=(const BoardGraphic& other) {
+}
+
+void BoardGraphic::draw(sf::RenderTarget& target, sf::RenderStates states) const {
+}
+
+}  // namespace snk
