@@ -5,14 +5,15 @@
 
 namespace snk {
 class ObjectLogic {
-  public:
-    sf::Transformable transformer;
-  public:
-    explicit ObjectLogic(const sf::Vector2f& coordinates);
-    explicit ObjectLogic(unsigned x = 0, unsigned y = 0);
-    explicit ObjectLogic(const ObjectLogic& other);
+ public:
+  sf::Transformable transformer;
+
+ public:
+  explicit ObjectLogic(const sf::Vector2f& coordinates);
+  explicit ObjectLogic(unsigned x = 0, unsigned y = 0);
+  explicit ObjectLogic(const ObjectLogic& other);
 };
 
-} // namespace snk
+}  // namespace snk
 
 #endif
