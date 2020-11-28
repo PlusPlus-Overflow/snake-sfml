@@ -1,10 +1,8 @@
 #ifndef __OBJECT_LOGIC_H__
 #define __OBJECT_LOGIC_H__
-
-namespace snk {
-
 #include "../SFML/Graphics/Transformable.hpp"
 
+namespace snk {
 class ObjectLogic {
   public:
     sf::Transformable transformer;
