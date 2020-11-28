@@ -5,7 +5,6 @@
 #include "../../include/snake/object_controller.h"
 #include "../../include/snake/object_graphic.h"
 #include "../../include/snake/object_logic.h"
-#include "../../include/snake/snake_head_logic.h"
 
 int main() {
 

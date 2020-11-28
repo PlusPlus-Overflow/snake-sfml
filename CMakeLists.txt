@@ -10,7 +10,7 @@ project(snake-sfml)
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS_DEBUG " -fsanitize=address -pedantic-errors -Wall -Wextra -Werror -DDEBUG -ggdb")
+set(CMAKE_CXX_FLAGS_DEBUG " -fsanitize=address -pedantic-errors -Wall -Wextra -DDEBUG -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "-Wall")
 
 # Source code
