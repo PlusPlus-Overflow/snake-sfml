@@ -1,6 +1,7 @@
 #ifndef _ObjectGraphic_
 #define _ObjectGraphic_
 
+#include "../../include/SFML/Graphics/RenderTarget.hpp"
 #include "../../include/SFML/Graphics/Sprite.hpp"
 #include "../../include/SFML/Graphics/Drawable.hpp"
 

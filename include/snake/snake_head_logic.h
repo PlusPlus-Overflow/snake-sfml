@@ -11,7 +11,7 @@ namespace snk {
 enum MOVES { UP,
              DOWN,
              RIGHT,
-             LEFT 
+             LEFT
 };
 
 std::map<int, sf::Vector2f> MOVES_VECTOR {
