@@ -13,11 +13,11 @@ snk::BoardLogic::BoardLogic(const BoardLogic& other) {
 snk::BoardLogic::BoardLogic(int row, int column, const sf::VideoMode& videomode) {
   row_ = row;
   column_ = column;
-  chunk_size_ = CalcularTamano(videomode);
+  chunk_size_ = CalculateChunck(videomode);
   board_.resize(row_ * column_);
 }
 
-sf::Vector2f snk::BoardLogic::CalcularTamano(const sf::VideoMode& videomode) {
+sf::Vector2f snk::BoardLogic::CalculateChunck(const sf::VideoMode& videomode) {
   auto anchura = videomode.height / row_;
   auto altura = videomode.width / column_;
   auto minimo = std::min(anchura, altura);
